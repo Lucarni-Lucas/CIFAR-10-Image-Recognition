@@ -4,7 +4,7 @@ Este proyecto es un clasificador de imágenes basado en el conjunto de datos CIF
 
 ## Requisitos
 
-1. Python 3.8 o superior.
+1. Python 3.8 a 3.11.
 2. Instalación de las dependencias del archivo `requirements.txt`.
 
 
