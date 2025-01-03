@@ -6,7 +6,7 @@ import numpy as np
 
 def load_data():
     """Carga el dataset CIFAR-10 desde la carpeta '../data'."""
-    data_dir = "../data/cifar-10-batches-py"
+    data_dir = os.path.abspath("../data/cifar-10-batches-py")
 
     def load_batch(file):
         with open(file, 'rb') as f:
